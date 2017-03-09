@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Goranovi testni MPEG-DASH",
+    "samples": [
+      {
+        "name": "Viva kriptirana bento4",
+        "uri": "http://toolbox.beenius.tv/HLS/enc/viva_multidrm/stream.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_url": "https://lic.staging.drmtoday.com/license-proxy-widevine/cenc/",
+        "drm_key_request_properties": {
+          "x-dt-custom-data": "ewogICAgInVzZXJJZCI6ICJnb3JhbiIsCiAgICAic2Vzc2lvbklkIjogImFhc3NhYXNzYWEiLAogICAgIm1lcmNoYW50IjogImJlZW5pdXMiCn0K"
+        }
+      },
+      {
+        "name": "castlabs demo stream",
+        "uri": "https://demo.cf.castlabs.com/media/bbb_abr/Manifest_new.mpd",
+        "drm_scheme": "widevine",
+        "drm_license_url": "https://lic.staging.drmtoday.com/license-proxy-widevine/cenc/",
+        "drm_key_request_properties": {
+          "x-dt-custom-data": "ewogICAgInVzZXJJZCI6ICJyZW50YWwxIiwKICAgICJzZXNzaW9uSWQiOiAicDAiLAogICAgIm1lcmNoYW50IjogImJlZW5pdXMiCn0K"
+        }
+      },
+      {
+        "name": "clear mpd stream",
+        "uri": "http://www.bok.net/dash/tears_of_steel/cleartext/stream.mpd"
+      }
+    ]
+  }
+]
